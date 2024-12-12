@@ -1,0 +1,100 @@
+Atlanta,Miami,Blue,5
+Atlanta,New Orleans,Yellow,4
+Atlanta,Nashville,Gray,1
+Atlanta,Raleigh,Gray,2
+Atlanta,Charleston,Gray,2
+Boston,Montreal,Gray,2
+Boston,New York,Yellow,2
+Boston,New York,Red,2
+Calgary,Helena,Gray,4
+Calgary,Seattle,Gray,4
+Calgary,Vancouver,Gray,3
+Calgary,Winnipeg,White,6
+Charleston,Miami,Purple,4
+Charleston,Raleigh,Gray,2
+Chicago,Duluth,Red,3
+Chicago,Omaha,Blue,4
+Chicago,Pittsburgh,Orange,3
+Chicago,Pittsburgh,Black,3
+Chicago,Saint Louis,Green,2
+Chicago,Saint Louis,White,2
+Dallas,El Paso,Red,4
+Dallas,Houston,Gray,1
+Dallas,Little Rock,Gray,2
+Dallas,Oklahoma City,Gray,2
+Denver,Helena,Green,4
+Denver,Kansas City,Black,4
+Denver,Kansas City,Orange,4
+Denver,Oklahoma City,Red,4
+Denver,Salt Lake City,Yellow,3
+Denver,Salt Lake City,Red,3
+Denver,Santa Fe,Gray,2
+Duluth,Helena,Orange,6
+Duluth,Omaha,Gray,2
+Duluth,Omaha,Gray,2
+Duluth,Sault Ste. Marie,Gray,3
+Duluth,Toronto,Purple,6
+Duluth,Winnipeg,Black,4
+El Paso,Houston,Green,6
+El Paso,Los Angeles,Black,6
+El Paso,Oklahoma City,Yellow,5
+El Paso,Santa Fe,Gray,2
+Helena,Omaha,Red,5
+Helena,Salt Lake City,Purple,3
+Helena,Seattle,Yellow,6
+Helena,Winnipeg,Blue,4
+Houston,New Orleans,Gray,2
+Kansas City,Oklahoma City,Gray,2
+Kansas City,Oklahoma City,Gray,2
+Kansas City,Saint Louis,Blue,2
+Kansas City,Saint Louis,Purple,2
+Las Vegas,Los Angeles,Gray,2
+Las Vegas,Salt Lake City,Orange,3
+Little Rock,Nashville,White,3
+Little Rock,New Orleans,Green,3
+Little Rock,Oklahoma City,Gray,2
+Little Rock,Saint Louis,Gray,2
+Los Angeles,Phoenix,Gray,3
+Los Angeles,San Francisco,Pink,3
+Los Angeles,San Francisco,Yellow,3
+Miami,New Orleans,Red,6
+Montreal,New York,Blue,3
+Montreal,Toronto,Gray,3
+Nashville,Pittsburgh,Yellow,4
+Nashville,Raleigh,Black,3
+New York,Pittsburgh,Green,2
+New York,Pittsburgh,White,2
+New York,Washington,Orange,2
+New York,Washington,Black,2
+Oklahoma City,Santa Fe,Blue,3
+Omaha,Kansas City,Gray,1
+Omaha,Kansas City,Gray,1
+Phoenix,Santa Fe,Gray,3
+Pittsburgh,Raleigh,Gray,2
+Pittsburgh,Saint Louis,Green,5
+Pittsburgh,Toronto,Gray,2
+Portland,Salt Lake City,Blue,6
+Portland,San Francisco,Green,5
+Portland,San Francisco,Purple,5
+Portland,Seattle,Gray,1
+Raleigh,Washington,Gray,2
+Salt Lake City,San Francisco,Orange,5
+Salt Lake City,San Francisco,White,5
+Seattle,Vancouver,Gray,1
+Sault Ste. Marie,Montreal,Black,5
+Sault Ste. Marie,Toronto,Gray,2
+Sault Ste. Marie,Winnipeg,Gray,6
+Washington,Raleigh,Gray,2
+Vancouver,Seattle,Gray,1
+Seattle,Portland,Gray,1
+El Paso,Phoenix,Gray,2
+Dallas,Oklahoma City,Gray,2
+Dallas,Houston,Gray,1
+Omaha,Denver,Pink,4
+Nashville,Saint Louis,Gray,2
+Toronto,Chicago,White,4
+Washington,Pittsburg,Gray,2
+Montreal,Boston,Gray,2
+Denver,Phoenix,White,5
+New Orleans,Atlanta,Orange,4
+Atlanta,Raleigh,Gray,2
