@@ -40,3 +40,23 @@ func TestGraphIntegrity(t *testing.T) {
 		t.Error("4th dest for Montreal isn't SSM", montreal[3])
 	}
 }
+
+func TestEnsureGraphHasNoExtraCities(t *testing.T) {
+	graph := mustBuildGraph(t)
+
+	checks := make(map[string]int)
+
+	for _, stations := range graph {
+		for _, station := range stations {
+			n := checks[station.String()]
+			n += 1
+			checks[station.String()] = n
+		}
+	}
+
+	for k, v := range checks {
+		if v > 2 {
+			t.Errorf("station %s has more than 2 got %d (start <-> end) tracks", k, v)
+		}
+	}
+}

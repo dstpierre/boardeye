@@ -3,6 +3,7 @@ package train
 import (
 	"encoding/csv"
 	"errors"
+	"fmt"
 	"io"
 	"os"
 	"strconv"
@@ -15,6 +16,14 @@ type Station struct {
 	Color  string
 	Length int
 	Taken  bool
+}
+
+func (s Station) String() string {
+	return fmt.Sprintf("%s -> %s (%d %s)", s.Start, s.End, s.Length, s.Color)
+}
+
+func (s Station) Equal(x Station) bool {
+	return s.Start == x.Start && s.End == x.End && s.Color == x.Color
 }
 
 type Graph map[string][]Station
