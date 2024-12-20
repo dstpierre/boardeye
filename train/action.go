@@ -21,13 +21,13 @@ func findRoute(graph Graph, info string) (Station, bool) {
 }
 
 func parseInfo(graph Graph, s string) (Station, bool) {
-	if len(s) != 7 {
+	if len(s) < 7 {
 		return Station{}, false
 	}
 
 	start := s[:3]
 	end := s[3:6]
-	color := toColor(s[6:7])
+	color := strings.ToUpper(s[6:])
 
 	station := Station{
 		Start: findCity(graph, start),
@@ -50,10 +50,23 @@ func findCity(graph Graph, s string) string {
 	return ""
 }
 
-func toColor(s string) string {
-	if s == "g" {
-		return "GRAY"
+func routesByNumberOfColor(graph Graph, color string, n int) []Station {
+	uniq := make(map[string]bool)
+
+	var matches []Station
+
+	for _, stations := range graph {
+		for _, station := range stations {
+			if station.Taken || station.Color != color || station.Length != n {
+				continue
+			}
+
+			if _, ok := uniq[station.UniqueKey()]; !ok {
+				matches = append(matches, station)
+				uniq[station.UniqueKey()] = true
+			}
+		}
 	}
 
-	return ""
+	return matches
 }

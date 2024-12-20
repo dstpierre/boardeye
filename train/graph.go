@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"slices"
 	"strconv"
 	"strings"
 )
@@ -20,6 +21,12 @@ type Station struct {
 
 func (s Station) String() string {
 	return fmt.Sprintf("%s -> %s (%d %s)", s.Start, s.End, s.Length, s.Color)
+}
+
+func (s Station) UniqueKey() string {
+	x := []string{s.Start, s.End}
+	slices.Sort(x)
+	return strings.Join(x, ",")
 }
 
 func (s Station) Equal(x Station) bool {

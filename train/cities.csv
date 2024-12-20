@@ -10,7 +10,7 @@ Calgary,Helena,Gray,4
 Calgary,Seattle,Gray,4
 Calgary,Vancouver,Gray,3
 Calgary,Winnipeg,White,6
-Charleston,Miami,Purple,4
+Charleston,Miami,Pink,4
 Charleston,Raleigh,Gray,2
 Chicago,Duluth,Red,3
 Chicago,Omaha,Blue,4
@@ -33,21 +33,21 @@ Duluth,Helena,Orange,6
 Duluth,Omaha,Gray,2
 Duluth,Omaha,Gray,2
 Duluth,Sault Ste. Marie,Gray,3
-Duluth,Toronto,Purple,6
+Duluth,Toronto,Pink,6
 Duluth,Winnipeg,Black,4
 El Paso,Houston,Green,6
 El Paso,Los Angeles,Black,6
 El Paso,Oklahoma City,Yellow,5
 El Paso,Santa Fe,Gray,2
 Helena,Omaha,Red,5
-Helena,Salt Lake City,Purple,3
+Helena,Salt Lake City,Pink,3
 Helena,Seattle,Yellow,6
 Helena,Winnipeg,Blue,4
 Houston,New Orleans,Gray,2
 Kansas City,Oklahoma City,Gray,2
 Kansas City,Oklahoma City,Gray,2
 Kansas City,Saint Louis,Blue,2
-Kansas City,Saint Louis,Purple,2
+Kansas City,Saint Louis,Pink,2
 Las Vegas,Los Angeles,Gray,2
 Las Vegas,Salt Lake City,Orange,3
 Little Rock,Nashville,White,3
@@ -75,7 +75,7 @@ Pittsburgh,Saint Louis,Green,5
 Pittsburgh,Toronto,Gray,2
 Portland,Salt Lake City,Blue,6
 Portland,San Francisco,Green,5
-Portland,San Francisco,Purple,5
+Portland,San Francisco,Pink,5
 Portland,Seattle,Gray,1
 Raleigh,Washington,Gray,2
 Salt Lake City,San Francisco,Orange,5
