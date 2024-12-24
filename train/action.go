@@ -2,7 +2,7 @@ package train
 
 import "strings"
 
-func findRoute(graph Graph, info string) (Station, bool) {
+func FindRoute(graph Graph, info string) (Station, bool) {
 	info = strings.Replace(info, "-", "", -1)
 	desired, ok := parseInfo(graph, info)
 	if !ok {
@@ -30,15 +30,15 @@ func parseInfo(graph Graph, s string) (Station, bool) {
 	color := strings.ToUpper(s[6:])
 
 	station := Station{
-		Start: findCity(graph, start),
-		End:   findCity(graph, end),
+		Start: FindCity(graph, start),
+		End:   FindCity(graph, end),
 		Color: color,
 	}
 
 	return station, true
 }
 
-func findCity(graph Graph, s string) string {
+func FindCity(graph Graph, s string) string {
 	for city := range graph {
 		tmp := strings.Replace(city, " ", "", -1)
 
@@ -50,7 +50,7 @@ func findCity(graph Graph, s string) string {
 	return ""
 }
 
-func routesByNumberOfColor(graph Graph, color string, n int) []Station {
+func RoutesByNumberOfColor(graph Graph, color string, n int) []Station {
 	uniq := make(map[string]bool)
 
 	var matches []Station

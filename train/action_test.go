@@ -17,7 +17,7 @@ func mustBuildGraph(t *testing.T) Graph {
 func TestFindRoute(t *testing.T) {
 	graph := mustBuildGraph(t)
 
-	station, ok := findRoute(graph, "mon-bos-gray")
+	station, ok := FindRoute(graph, "mon-bos-gray")
 	if !ok {
 		t.Error("cannot find route via 'mon-bos-gray'")
 	} else if station.Start != "MONTREAL" {
@@ -49,7 +49,7 @@ func TestEnsureCityNameDoesNotCollide(t *testing.T) {
 func TestFindRoutesByColorAndNumber(t *testing.T) {
 	graph := mustBuildGraph(t)
 
-	matches := routesByNumberOfColor(graph, "WHITE", 6)
+	matches := RoutesByNumberOfColor(graph, "WHITE", 6)
 	if len(matches) != 1 {
 		t.Log(matches)
 		t.Error("did not find route with 6 white point")

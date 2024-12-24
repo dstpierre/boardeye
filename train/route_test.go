@@ -11,7 +11,7 @@ func TestFindShortesRoute(t *testing.T) {
 	}
 
 	//route, err := findShortestRoute(graph, "Miami", "Winnipeg")
-	route, err := findShortesPath(graph, "MIAMI", "WINNIPEG")
+	route, err := FindShortesPath(graph, "MIAMI", "WINNIPEG")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -54,7 +54,7 @@ func TestAltShortestRoute(t *testing.T) {
 		}
 	}
 
-	route, err := findShortesPath(graph, "MIAMI", "WINNIPEG")
+	route, err := FindShortesPath(graph, "MIAMI", "WINNIPEG")
 	if err != nil {
 		t.Fatal(err)
 	}

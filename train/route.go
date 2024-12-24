@@ -6,7 +6,7 @@ import (
 	"math"
 )
 
-func findShortesPath(graph Graph, start, end string) ([]Station, error) {
+func FindShortesPath(graph Graph, start, end string) ([]Station, error) {
 	// Initialize distances and previous nodes
 	dist := make(map[string]int)
 	prev := make(map[string]string)
